@@ -13,7 +13,8 @@ const userSchema = mongoose.Schema({
         trim: true
     },
     age: {
-        type: Number
+        type: Number,
+        default: 1
     },
     email: {
         type: String,
