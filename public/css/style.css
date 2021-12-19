@@ -1,0 +1,54 @@
+.nav-container{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.main{ 
+    width: 60%;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+.task-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.error{
+    color: red;
+}
+
+.bg-green{
+    background-color: #D3E4CD;
+}
+
+.login-form, .signup-form{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.492);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.profile-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+
+.login-link{
+    padding-bottom: 5px;
+}
